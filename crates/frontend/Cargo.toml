@@ -1,0 +1,11 @@
+[package]
+name = "collecto-frontend"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+collecto-domain = { path = "../domain" }

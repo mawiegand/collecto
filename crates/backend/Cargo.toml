@@ -1,0 +1,8 @@
+[package]
+name = "collecto-backend"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+collecto-domain = { path = "../domain" }
